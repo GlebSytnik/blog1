@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Блог</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<<div class="container">
+    <header class="blog-header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+
+
+        </div>
+    </header>
+
+    <div class="nav-scroller py-1 mb-2">
+        <nav class="nav d-flex justify-content-between">
+          <h1>Добавления статьи</h1>
+
+            <form action="blog-add" method="post">
+                <input type = "text" name = "title" placeholder="Введите названия статьи" class = "form-control">
+                <input type = "text" name = "anons" placeholder="Введите анонс" class = "form-control">
+                <input type = "text" name = "fullText1" placeholder="Введите полный текст" class = "form-control">
+                <button type="submit" class = "button button-success">Добавить</button>
+
+            </form>
+
+        </nav>
+    </div>
+
+
+
+</div>
+
+
+</body>
+</html>
