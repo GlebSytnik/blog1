@@ -32,8 +32,9 @@ build/
 ### VS Code ###
 .vscode/
 
-.mvn
+*.mvn
 blog.iml
 mvnw.cmd
 mvnw
+**/test
 
