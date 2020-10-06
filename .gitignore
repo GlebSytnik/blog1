@@ -32,6 +32,8 @@ build/
 ### VS Code ###
 .vscode/
 
-.mvn/
-blog.iml/
-/src/main/resources/
+.mvn
+blog.iml
+mvnw.cmd
+mvnw
+
