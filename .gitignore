@@ -34,3 +34,4 @@ build/
 
 .mvn/
 blog.iml/
+/src/main/resources/
