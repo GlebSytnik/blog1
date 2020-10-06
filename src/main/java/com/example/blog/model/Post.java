@@ -1,4 +1,4 @@
-package com.example.blog.models;
+package com.example.blog.model;
 
 
 import javax.persistence.Entity;
@@ -11,13 +11,24 @@ public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-    private  String anons, fulltext1,title;
+    private String anons, fulltext1, title;
     private int views;
+
+    public Post(String anons, String fulltext1, String title) {
+        this.anons = anons;
+        this.fulltext1 = fulltext1;
+        this.title = title;
+    }
+
+    public Post() {
+
+    }
 
 
     public long getId() {
         return id;
     }
+
     public void setId(int id) {
         this.id = id;
     }
@@ -53,14 +64,6 @@ public class Post {
 
     public void setAnons(String anons) {
         this.anons = anons;
-    }
-    public Post(String anons, String fulltext1, String title) {
-        this.anons = anons;
-        this.fulltext1 = fulltext1;
-        this.title = title;
-    }
-    public  Post (){
-
     }
 
 

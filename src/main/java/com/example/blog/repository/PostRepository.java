@@ -1,8 +1,9 @@
-package com.example.blog.repo;
+package com.example.blog.repository;
 
-import com.example.blog.models.Post;
+import com.example.blog.model.Post;
 import org.springframework.data.repository.CrudRepository;
 
 public interface PostRepository extends CrudRepository<Post,Long> {
+
 
 }
